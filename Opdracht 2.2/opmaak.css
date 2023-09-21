@@ -1,0 +1,11 @@
+body{background-color: azure;
+
+}
+
+p{color:gray;
+
+padding: 20 px;
+}
+table, th, td {
+    border:1px solid black;
+}

@@ -1,0 +1,29 @@
+body
+{
+    background-color: aqua;
+}
+
+h1{
+    font-size: 24px;
+    color: blue;
+    font-style: italic;
+    font-weight: bold
+}
+
+h2{
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold
+}
+h3 {
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+#paragraaf1 {
+color: #4d4d4d;
+font-weight: bold;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+/* Algemene opmaak*/
+*{ 
+    background-color: #E098FF ;
+    color: black;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+ id:ouderavond.html {
+    background-color: rgb(240, 255, 255);
+}
