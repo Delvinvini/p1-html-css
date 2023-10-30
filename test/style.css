@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #333; /* Achtergrondkleur van de balk */
+    overflow: hidden; /* Voorkomt dat de inhoud buiten de balk valt */
+}
+
+/* Stijl voor de koppelingen in de navbar */
+.navbar a {
+    float: left; /* Laat de koppelingen naast elkaar staan */
+    display: block; /* Zorg ervoor dat ze het hele balkgedeelte innemen */
+    color: white; /* Tekstkleur */
+    text-align: center; /* Tekst in het midden uitlijnen */
+    padding: 14px 16px; /* Binnenafstand boven en onder (14px) en links en rechts (16px) */
+    text-decoration: none; /* Verwijder de standaard onderstreping van koppelingen */
+}
+
+/* Stijl voor koppelingen bij hover (wanneer de muis erover beweegt) */
+.navbar a:hover {
+    background-color: #ddd; /* Achtergrondkleur veranderen bij hover */
+    color: black; /* Tekstkleur veranderen bij hover */
+}

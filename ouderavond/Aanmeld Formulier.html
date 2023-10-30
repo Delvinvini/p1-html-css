@@ -1,30 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="opmaak.css">
-    <title>Aanmeld</title>
+    <title>Ouderavond</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Aanmeld Formulier</h1>
-
-<nav>
-    <ul>
-        <li><a href="ouderavond.html">Home</a></li>
-        <li><a href="Eduarte.html">Eduarte</a></li>
-        <li><a href="Canvas.html">Canvas</a></li>
-        <li><a href="Aanmeld Formulier.html">Aanmelden</a></li>
-    </ul>
+    <header>
+        <nav class="navbar">
+            <ul class="navitem">
+                <li class="navitem"><a href="ouderavond.html">Home</a></li>
+                <li class="navitem"><a href="Canvas.html">Canvas</a></li>
+                <li class="navitem"><a href="Eduarte.html">Eduarte</a></li>
+                <li class="navitem"><a href="Examenplan.html">Examens</a></li>
+                <li class="navitem"><a href="Opleiding.html">Opleiding</a></li>
+                <a class="navitem right" href="Aanmeld Formulier.html">Aanmelden</a> 
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>Aanmeld pagina</h1>
+    </div>
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    <footer>
+        <nav class="footer-navbar">
+            <ul>
+                <li class="navitem"><a href="mailto:tcrmail@outlook.com">Contact: tcrmail@outlook.com</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
 </nav>
-<form>
-    <label for="fname">First name:</label>
-    <input type="text" id="fname" name="fname"><br><br>
-    <label for="lname">Last name:</label>
-    <input type="text" id="lname" name="lname"><br><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
-    <label for="pwd">Password:</label>
-<input type="password" id="pwd" name="pwd"><br><br>
-    <input type="submit" value="Submit">
-  </form>

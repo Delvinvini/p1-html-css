@@ -1,0 +1,199 @@
+body {
+   
+    margin: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    padding: 0;
+    background-color: rgb(212, 244, 255);
+}
+
+
+header {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+nav.navbar li.navitem {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav.navbar a.navitem {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav.navbar a.navitem.right {
+    float: right;
+    position: relative;
+    right: 15px;
+}
+
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #000000;
+}
+
+
+.ouderavond-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.ouderavond-button:hover {
+    background-color: white;
+    color: #3382d6;
+}
+
+    
+footer {
+    background-color: #007bff;
+    text-align: left;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav.footer-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.footer-navbar li.navitem {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav.footer-navbar li.navitem a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#canvasuitleg {
+    width: 75px;
+    height: 450px;
+    position: absolute;
+    bottom: 125px;
+    left: calc(25px + -0.3cm);
+ 
+ }
+
+ #watiscanvas{
+    position: absolute;
+        left: 100px;
+        top: 120px;
+        
+    }
+
+#canvas1{
+    position: fixed;
+    left: 100px;
+    top: 165px;
+    font-size: 15px
+}
+#canvasinbox{
+    position: absolute;
+        left: 650px;
+        top: 120px;
+       
+    }
+#canvas2{
+    position: absolute;
+    left: 600px;
+    font-size: 15px;
+}
+#kalenderimg{
+    position: absolute;
+    height: 300px;
+    left: 600px;
+    bottom: 100px;
+    
+}
+#ouderapp{
+    position: absolute;
+        right: 200px;
+        top: 120px;
+       
+    }
+    
+#canvas3{
+    position: absolute;
+    right: 50px;
+}
+
+#eduarteimg{
+    position: absolute;
+    right: 75px;
+    top:  300px;
+}
+
+#eduarteapp {
+    text-align: center;
+    font-size: 25px
+}
+
+#eduarteuitleg {
+    text-align: center;
+}
+
+#eduartelijst{
+    position: absolute;
+    height: 350px;
+    width: 200px;
+    top: 150px;
+    left: 150px;
+}
+
+#rooster {
+    position: absolute;
+    height: 250px;
+    bottom: 55px;
+    left: 550px;
+}
+
+#ouderavond1 {
+    position: absolute;
+    left: 700px;
+}
+
+#ouderavond2 {
+    position: absolute;
+    left: 250px;
+}
+
+#ouderavondtekst1 {
+    position: absolute;
+    left: 600px;
+    top: 250px;
+}
+
+#ouderavondtekst2 {
+        position: absolute;
+        left: 150px;
+        top: 250px;
+    }
